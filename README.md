@@ -2,11 +2,31 @@
 
 ## Overview
 
-Python application designed to manage chess tournaments from the command line.
+Chess Tournament Manager is a Python application designed to manage chess tournaments from the command line.
 The application allows users to create and manage tournaments, register players, generate rounds, record match results and display tournament rankings.
 The project was developed using Object-Oriented Programming principles and follows the Model-View-Controller (MVC) design pattern.
 
 The project was completed as part of the OpenClassrooms Python Developer program.
+
+## Features
+
+- Command-line interface for tournament management
+- Create and manage tournaments
+- Register and manage players
+- Generate Swiss-system pairings automatically
+- Record match results and player scores
+- Display player, tournament, and round information
+- Store and retrieve data using a local JSON database
+
+## Tech Stack
+
+- Python 3
+- TinyDB
+
+## Architecture
+
+- Model-View-Controller (MVC)
+- Object-Oriented Programming (OOP)
 
 ## Installation
 
@@ -43,19 +63,19 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## Flake8 Report
+## Code Quality
 
-Run Flake8 to check PEP 8 compliance:
 ```bash
 flake8
 ```
 
-HTML report:
+Generate an HTML report:
 ```bash
 flake8 --format=html --htmldir=flake-report
 ```
 
-To view the report, open the generated `index.html` file in your web browser.
+Open in browser:
+`index.html`
 
 ## Application Overview
 

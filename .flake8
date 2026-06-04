@@ -3,4 +3,3 @@ max-line-length = 119
 exclude =
     venv/
     env/
-    README.md
